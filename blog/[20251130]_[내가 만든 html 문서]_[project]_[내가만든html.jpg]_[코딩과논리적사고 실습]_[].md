@@ -1,8 +1,7 @@
 # Html 실습_25.11.30
 
 
-### 사이트 바로가기 
-[시험기간 공부하기 좋은 경희대학교 주변 카페 추천](https://ppck75.github.io/html_khu-cafe/)
+**사이트 바로가기** -> [시험기간 공부하기 좋은 경희대학교 주변 카페 추천](https://ppck75.github.io/html_khu-cafe/)
 
 # 카페 추천 웹사이트 제작기
 
