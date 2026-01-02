@@ -185,7 +185,7 @@ AI의 도움을 통해 웹 페이지 개발도 충분히 가능하다는 것이�
 ##내가 작성한 HTML 코드 전체 
 
 <title>경희대 주변 시험기간 카공 카페 추천</title>
-<!style>
+<!--style-->
     :root {
         --primary: #2c3e50;
         --accent: #e67e22;
@@ -378,13 +378,13 @@ AI의 도움을 통해 웹 페이지 개발도 충분히 가능하다는 것이�
         #title { font-size: 22px; }
         img.cafe-img { width: 100%; }  /* 모바일에서는 한 장씩 크게 */
     }
-</!style>
+</style>
 <!-- 상단 메뉴바 -->
-<!nav class="nav-bar">
+<!--nav class="nav-bar"-->
     <a href="#front-gate">정문 근처 카페</a>
     <a href="#back-gate">후문 근처 카페</a>
     <a href="#hoegi">회기역 근처 카페</a>
-</!nav>
+</!--nav-->
 
 <div class="page-wrap">
 
