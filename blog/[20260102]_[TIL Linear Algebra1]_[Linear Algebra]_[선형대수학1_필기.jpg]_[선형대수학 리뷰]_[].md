@@ -1,5 +1,3 @@
-# Today's Learning_Linear Algebra1_25.01.02
-
 
 # Linear Algebra1
 
