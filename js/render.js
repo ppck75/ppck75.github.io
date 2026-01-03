@@ -1,3 +1,9 @@
+function typesetMath() {
+  if (window.MathJax && window.MathJax.typesetPromise) {
+    return window.MathJax.typesetPromise().catch(console.error);
+  }
+  return Promise.resolve();
+}
 function search(keyword, kinds) {
   /*
     트러블슈팅: 실제 데이터가 없을 경우 API 호출을 한 번 실행.
