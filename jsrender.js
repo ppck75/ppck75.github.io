@@ -20,7 +20,7 @@ async function typesetMath() {
     console.error(e);
   }
 }
-
+function search(keyword, kinds) {
   /*
     트러블슈팅: 실제 데이터가 없을 경우 API 호출을 한 번 실행.
     1. 메뉴에서 검색 버튼을 클릭해서 검색하였을 경우 검색 결과를 renderBlogList 함수를 통해 렌더링
