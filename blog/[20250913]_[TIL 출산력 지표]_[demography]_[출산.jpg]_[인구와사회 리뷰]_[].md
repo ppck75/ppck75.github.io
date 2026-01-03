@@ -1,11 +1,3 @@
-
----
-title: "출산력의 지표 정리: CBR, ASFR, TFR 이해하기"
-date: 2026-01-03
-categories: [Demography, Population]
-tags: [출산력, 조출생률, 연령별출산율, 합계출산율, 인구학]
----
-
 # 출산력의 지표 정리  
 _CBR, ASFR, TFR의 정의와 해석_
 
