@@ -1,10 +1,26 @@
-function typesetMath() {
-  if (window.MathJax && window.MathJax.typesetPromise) {
-    return window.MathJax.typesetPromise().catch(console.error);
-  }
-  return Promise.resolve();
+function waitForMathJax(maxWaitMs = 5000) {
+  return new Promise((resolve) => {
+    const start = Date.now();
+    (function check() {
+      if (window.MathJax && window.MathJax.typesetPromise) return resolve(true);
+      if (Date.now() - start > maxWaitMs) return resolve(false);
+      setTimeout(check, 50);
+    })();
+  });
 }
-function search(keyword, kinds) {
+
+async function typesetMath() {
+  const ready = await waitForMathJax();
+  if (!ready) return; // MathJax 로드 실패/지연이면 그냥 종료
+  try {
+    // 컨텐츠 영역만 다시 렌더링(빠르고 안전)
+    const target = document.getElementById("contents") || document.body;
+    await window.MathJax.typesetPromise([target]);
+  } catch (e) {
+    console.error(e);
+  }
+}
+
   /*
     트러블슈팅: 실제 데이터가 없을 경우 API 호출을 한 번 실행.
     1. 메뉴에서 검색 버튼을 클릭해서 검색하였을 경우 검색 결과를 renderBlogList 함수를 통해 렌더링
@@ -681,6 +697,7 @@ async function initialize() {
               ? styleMarkdown("post", text, postInfo)
               : styleJupyter("post", text, postInfo)
           )
+          .then(() => typesetMath())
           .then(() => {
             // 렌더링 후에는 URL 변경(query string으로 블로그 포스트 이름 추가)
             const url = new URL(window.location.href);
