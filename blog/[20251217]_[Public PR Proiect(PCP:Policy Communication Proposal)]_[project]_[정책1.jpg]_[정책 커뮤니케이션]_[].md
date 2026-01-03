@@ -1,5 +1,5 @@
 # Public PR Proiect(PCP:Policy Communication Proposal)
-## 조달청 나라장터에 실제 게시된 RFP(제안요청서) 기 ‘주사위’ 캠페인 기획기
+## 공공PR ‘주사위’ 캠페인 기획기
 
 ![정책1](img/정책1.jpg)
 
