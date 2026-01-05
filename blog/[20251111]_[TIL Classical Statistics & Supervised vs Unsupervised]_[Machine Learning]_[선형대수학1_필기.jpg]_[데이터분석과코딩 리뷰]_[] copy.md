@@ -78,6 +78,10 @@ But, prediction and flexibility in machine learning versus inference and interpr
 
 ## 3. 머신러닝의 유형: 지도학습 vs 비지도학습
 
+
+![머신러닝1_2](img/머신러닝1_2.jpg)
+
+
 ### 1) 지도학습 (Supervised Learning)
 
 - **라벨이 있는 데이터** 사용
@@ -154,7 +158,7 @@ But, prediction and flexibility in machine learning versus inference and interpr
 
 ## 5. 머신러닝 프로세스
 
-![머신러닝1_1](img)
+![머신러닝1_1](img/머신러닝1_1.jpg)
 
 
 머신러닝 프로젝트는 다음과 같은 단계로 진행된다.
@@ -209,6 +213,8 @@ But, prediction and flexibility in machine learning versus inference and interpr
 - 새로운 데이터로 재학습 가능
 - 지속적인 성능 유지 및 개선
 
+
+![머신러닝1_3](img/머신러닝1_3.jpg)
 ---
 
 ## 6. Summary
