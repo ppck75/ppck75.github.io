@@ -231,3 +231,10 @@
   mask-repeat: no-repeat;
   mask-position: center center;
 }/*# sourceMappingURL=style.css.map */
+
+/* ✅ 리스트에서 점(•)과 문장이 줄바꿈되는 현상 방지 */
+#contents ul > li > p,
+#contents ol > li > p {
+  display: inline;
+  margin: 0;
+}
