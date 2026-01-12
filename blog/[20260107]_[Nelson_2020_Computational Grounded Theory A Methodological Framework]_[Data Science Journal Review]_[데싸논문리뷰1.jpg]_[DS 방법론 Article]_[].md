@@ -1,7 +1,7 @@
 # Computational Grounded Theory: A Methodological Framework  
 **Nelson (2020)**
 
-**Computational Science 또는 Data Science 관련 논문을 요약하고, 논문 리뷰 소모임에서 토론한 내용을 함께 정리한 글입니다.**
+**Computational Science 또는 Data Science 관련 논문을 요약하고, 토론 질문을 정리한 글입니다.**
 Laura K. Nelson의 Computational Grounded Theory:A Methodological Framework(2020) Article을 리뷰하였습니다. 
 
 ## 1. 논문 개요 및 문제의식
