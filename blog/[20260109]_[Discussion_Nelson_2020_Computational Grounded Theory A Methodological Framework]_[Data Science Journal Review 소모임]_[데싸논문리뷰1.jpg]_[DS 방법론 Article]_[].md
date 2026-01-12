@@ -33,13 +33,13 @@ Laura K. Nelson의 Computational Grounded Theory:A Methodological Framework(2020
 
     즉, BERTopic은 각 문서를 문장 임베딩으로 바꾸고, 임베딩이 서로 가까운 문서들끼리 묶어서 군집화한다. 그 묶음의 대표 단어를 뽑아서 '토픽'을 만든다. 즉, 단어 빈도가 아니라 문서 의미의 거리로 토픽을 만드는 모델링이다. 
 
-② 차원 축소 (UMAP)
+② 차원 축소 
 
 - 고차원 벡터를 저차원으로 압축
 
 - 의미 구조는 유지하면서 군집화가 쉬워짐
 
-③ 군집화 (HDBSCAN)
+③ 군집화
 
 - 군집 개수를 자동 결정
 
